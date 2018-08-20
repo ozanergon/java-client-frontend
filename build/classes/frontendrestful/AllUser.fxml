@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" onDragDetected="#initialize" prefHeight="553.0" prefWidth="848.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="frontendrestful.AllUserController">
+   <children>
+      <TableView fx:id="user" layoutX="35.0" layoutY="48.0" prefHeight="219.0" prefWidth="788.0">
+        <columns>
+          <TableColumn fx:id="idUser" prefWidth="198.0" text="User Id" />
+          <TableColumn fx:id="name" prefWidth="184.0" text="Name" />
+            <TableColumn fx:id="gender" prefWidth="203.0" text="Gender" />
+            <TableColumn fx:id="address" prefWidth="202.0" text="Address" />
+        </columns>
+      </TableView>
+   </children>
+</AnchorPane>

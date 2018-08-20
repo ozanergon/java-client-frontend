@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="AnchorPane" prefHeight="448.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="frontendrestful.FXMLDocumentController">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Text layoutX="257.0" layoutY="70.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add User" textAlignment="CENTER" wrappingWidth="75.99999618530273" />
+      <TextField fx:id="name" layoutX="221.0" layoutY="95.0" promptText="Name" />
+      <TextField fx:id="idUser" layoutX="221.0" layoutY="147.0" promptText="User Id" />
+      <TextField fx:id="gender" layoutX="221.0" layoutY="199.0" promptText="Gender" />
+      <TextField fx:id="address" layoutX="221.0" layoutY="246.0" promptText="Email" />
+      <Button layoutX="320.0" layoutY="310.0" mnemonicParsing="false" onAction="#saveDataUser" text="Add" />
+    </children>
+</AnchorPane>
